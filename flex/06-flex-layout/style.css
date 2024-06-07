@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* Added by AK */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -16,6 +20,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /* Added by AK */
+  padding : 5px 15px;
+  margin-top: 15px;
 }
 
 input {
@@ -23,4 +30,45 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+/* Added by AK */
+
+/* this removes the dots on the list items*/ 
+li {
+  list-style-type: none;
+}
+
+/* this removes the line under the links */
+a {
+  text-decoration: none;
+  color:rgb(117, 116, 116);
+}
+
+.header {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  background-color: #eeeeee;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+
+.right-links {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
