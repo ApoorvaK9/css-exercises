@@ -24,3 +24,42 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Modified by AK */
+/* .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vege {
+  display: flex;
+  margin: 32px;
+  gap: 52px;
+  justify-content: space-around;
+}
+
+.veg1, .veg2, .veg3, .veg4 {
+  display: flex;
+  flex-flow: column wrap;
+   align-items: center;
+} */
+
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.vege {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.veg1, .veg2, .veg3, .veg4  {
+  max-width: 200px;
+}
